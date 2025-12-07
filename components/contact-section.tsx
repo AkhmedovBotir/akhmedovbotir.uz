@@ -33,8 +33,8 @@ export default function ContactSection() {
 
     try {
       // Send to Telegram bot
-      const botToken = '5905594514:AAGCz6Lt_p3QX5gpd-M4qlsQiZOijVlaof0'
-      const chatId = '1543822491'
+      const botToken = 'BOT_TOKEN_HERE'
+      const chatId = 'CHATID_HERE'
       
       const response = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
         method: 'POST',
